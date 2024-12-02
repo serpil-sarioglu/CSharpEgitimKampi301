@@ -30,8 +30,8 @@ namespace CSharpEgitimKampi301.EFProject
         private void btnDelete_Click(object sender, EventArgs e)
         {
             int id = int.Parse(txtId.Text);
-            var removeValue = db.Guide.Find(id);
-            db.Guide.Remove(removeValue);
+            var removedValue = db.Guide.Find(id);
+            db.Guide.Remove(removedValue);
             db.SaveChanges();
             MessageBox.Show("Rehber başarıyla silindi");
         }
