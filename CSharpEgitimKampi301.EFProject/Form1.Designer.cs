@@ -46,7 +46,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 18);
+            this.label1.Location = new System.Drawing.Point(55, 77);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 16);
             this.label1.TabIndex = 0;
@@ -54,7 +54,7 @@
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(116, 14);
+            this.txtId.Location = new System.Drawing.Point(127, 73);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(192, 22);
             this.txtId.TabIndex = 1;
@@ -62,7 +62,7 @@
             // btnList
             // 
             this.btnList.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnList.Location = new System.Drawing.Point(113, 124);
+            this.btnList.Location = new System.Drawing.Point(1059, 60);
             this.btnList.Name = "btnList";
             this.btnList.Size = new System.Drawing.Size(199, 50);
             this.btnList.TabIndex = 2;
@@ -73,16 +73,16 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(318, 14);
+            this.dataGridView1.Location = new System.Drawing.Point(349, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(560, 380);
+            this.dataGridView1.Size = new System.Drawing.Size(658, 380);
             this.dataGridView1.TabIndex = 3;
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(116, 52);
+            this.txtName.Location = new System.Drawing.Point(127, 111);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(192, 22);
             this.txtName.TabIndex = 5;
@@ -90,7 +90,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(35, 56);
+            this.label2.Location = new System.Drawing.Point(46, 115);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 16);
             this.label2.TabIndex = 4;
@@ -98,7 +98,7 @@
             // 
             // txtSurname
             // 
-            this.txtSurname.Location = new System.Drawing.Point(116, 90);
+            this.txtSurname.Location = new System.Drawing.Point(127, 149);
             this.txtSurname.Name = "txtSurname";
             this.txtSurname.Size = new System.Drawing.Size(192, 22);
             this.txtSurname.TabIndex = 7;
@@ -106,7 +106,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 94);
+            this.label3.Location = new System.Drawing.Point(23, 153);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(101, 16);
             this.label3.TabIndex = 6;
@@ -115,7 +115,7 @@
             // btnAdd
             // 
             this.btnAdd.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnAdd.Location = new System.Drawing.Point(113, 179);
+            this.btnAdd.Location = new System.Drawing.Point(1059, 115);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(199, 50);
             this.btnAdd.TabIndex = 8;
@@ -126,7 +126,7 @@
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnDelete.Location = new System.Drawing.Point(113, 234);
+            this.btnDelete.Location = new System.Drawing.Point(1059, 171);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(199, 50);
             this.btnDelete.TabIndex = 9;
@@ -137,7 +137,7 @@
             // btnUpdate
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnUpdate.Location = new System.Drawing.Point(113, 289);
+            this.btnUpdate.Location = new System.Drawing.Point(1059, 226);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(199, 50);
             this.btnUpdate.TabIndex = 10;
@@ -148,7 +148,7 @@
             // btnGetById
             // 
             this.btnGetById.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnGetById.Location = new System.Drawing.Point(113, 344);
+            this.btnGetById.Location = new System.Drawing.Point(1059, 281);
             this.btnGetById.Name = "btnGetById";
             this.btnGetById.Size = new System.Drawing.Size(199, 50);
             this.btnGetById.TabIndex = 11;
@@ -160,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(882, 403);
+            this.ClientSize = new System.Drawing.Size(1384, 403);
             this.Controls.Add(this.btnGetById);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnDelete);

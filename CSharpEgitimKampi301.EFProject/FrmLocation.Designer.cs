@@ -142,7 +142,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(820, 589);
+            this.dataGridView1.Size = new System.Drawing.Size(1054, 589);
             this.dataGridView1.TabIndex = 15;
             // 
             // btnList
@@ -243,7 +243,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1150, 614);
+            this.ClientSize = new System.Drawing.Size(1384, 614);
             this.Controls.Add(this.cmbGuide);
             this.Controls.Add(this.nudCapacity);
             this.Controls.Add(this.label7);
