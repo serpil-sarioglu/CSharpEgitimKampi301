@@ -265,7 +265,7 @@
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label1);
             this.Name = "FrmLocation";
-            this.Text = "FrmLocation";
+            this.Text = "Tur Lokasyonları";
             this.Load += new System.EventHandler(this.FrmLocation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCapacity)).EndInit();
