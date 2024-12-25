@@ -24,6 +24,12 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
         {
             return _productDal.GetById(id);
         }
+        // Product Entity'e özgü metot çağırıldı
+        public List<object> TGetProductsWithCategory()
+        {
+            return _productDal.GetProductsWithCategory();
+        }
+
         public void TInsert(Product entity)
         {
             _productDal.Insert(entity);
